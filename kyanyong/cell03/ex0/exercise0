@@ -1,0 +1,13 @@
+#!\usr\bin\env python3
+
+num = int(input("Enter a number less than 25: "))
+i = num
+
+if num >= 25:
+    print("Error")
+else:
+        while i <= 25:
+            print(f"Inside the loop, my variable is {num}")
+            i = i + 1
+            num += 1
+

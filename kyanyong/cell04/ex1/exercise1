@@ -1,0 +1,8 @@
+#! usr/bin/env python3
+
+n = 10
+age = int(input("Please tell me your age: "))
+print(f"You are currently {age} years old")
+while(n <= 30):
+    print(f"In {n} years, you will be {age + n} years old")
+    n += 10
